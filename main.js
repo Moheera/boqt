@@ -19,7 +19,9 @@ if (window.Telegram && Telegram.WebApp) {
 
 	// Customizing the appearance of the Telegram WebApp (optional)
 	Telegram.WebApp.MainButton.setText('Send to Telegram');
-	Telegram.WebApp.MainButton.show(); console.log('Opened inside Telegram');
+	Telegram.WebApp.MainButton.show();
+	console.log('Opened inside Telegram');
+	console.log(Telegram);
 } else {
 	// Outside Telegram
 	console.log('Opened outside Telegram');
